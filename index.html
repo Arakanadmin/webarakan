@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style4.css">
+    <title>www.arakan.org</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> <!--icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> <!--box-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+        <div id="wrapper-div" class="screentext"> <!--ouverture wrapper div-->
+                <header id="header-div">
+                        <div id="logo-div" class="flag-container"  class="clearfix" class="box">
+                                <img src="Logo.png" class="flag-image">
+                        </div>
+                        <div id="headertitle-div" class="h1 box clearfix">
+                                <h1><b>Association des Ressortissants et Amis de Koubia en Amérique du Nord</b></h1>
+                        </div>
+                </header>
+                        <div id="champvide-div"></div> <!--champvide-div-->
+                        <div id="main-div" class="clearfix"> <!--ouverture main div-->
+                        <input type="checkbox" id="check" class="hide">
+                        <div id="left-div" class="container-side"> <!--ouverture left div-->
+                                <nav> <!--Ouverture Navigation sidebar -->
+                                        <div class="logo-box"> <!--Ouverture division logo Menu-->
+                                        <p><img src="Logo.png"></p>
+                                                <div class="menu-btn">
+                                                        <label for="check">
+                                                                <i class="fas fa-angle-left" id="arrow"></i>
+                                                        </label>
+                                                        <h2>Menu</h2>
+                                                        <ul class="sidebar"> <!--ouverture ul sidebar-menu-->
+                                                                <li><a href="#"><i class="fa fa-home"></i><p>Accueil</p></a><span>Accueil</span></li>
+                                                                <li><a href="#"class="accueil-btn"><i class="fa fa-handshake"></i><p>ARAKAN</p></a><span>ARAKAN</span></li>
+                                                                                <!--span class="fas fa-caret-down first"></span-->
+                                                                                <div class="submenu1">
+                                                                                        <ul class="accueil-show">
+                                                                                                <li><a href="#" id="statut">Statut</a></li>
+                                                                                                <li><a href="#" id="AG">Assemblées Générales</a></li>
+                                                                                        </ul>
+                                                                                </div>
+                                                                <li><a href="#"><i class="fa fa-info"></i><p>Infos</p></a><span>Infos</span></li>
+                                                                <li><a href="#"><i class="fa fa-star"></i><p>Actions</p></a><span>Actions</span></li>
+                                                                <li><a href="#"><i class="fa fa-graduation-cap"></i><p>Education</p></a><span>Education</span></li>
+                                                                <li><a href="#"><i class="fa fa-medkit"></i><p>Santé</p></a><span>Santé</span></li>
+                                                                <li><a href="#"><i class="fa fa-leaf"></i><p>Environnement</p></a><span>Environnement</span></li>
+                                                                <li><a href="#"><i class="fa fa-futbol"></i><p>Sport</p></a><span>Sport</span></li>
+                                                                <li><a href="#"><i class="fa fa-camera-retro"></i><p>Gallérie</p></a><span>Gallérie</span>
+                                                                        <div class="gallery" class="openGallery">
+                                                                                <div class="gallery-container">
+                                                                                        <img src="Bibliotheque avant renovation.jpg" alt="">
+                                                                                        <img src="Bibliotheque avant renovation.jpg" alt="">
+                                                                                </div>                                                           
+                                                                        </div>
+                                                                </li>
+                                                                <li><a href="#" class="contact-btn"><i class="fa-solid fa-address-book"></i><p>Contact</p></a><span>Contact</span></li>
+                                                                        <!--span class="fas fa-caret-down second"></span-->
+                                                                <div class="submenu2">
+                                                                        <ul class="contact-show">
+                                                                                <li><a href="#">arakanassociation22@gmail.com</a></li>
+                                                                                <li><a href="#">+1000000000</a></li>
+                                                                        </ul>
+                                                                </div>
+                                                                <div class="social-icons">
+                                                                        <a href="https://www.facebook.com/arakanassociation" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a></li>
+                                                                        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                                                                </div>
+
+                                                        </ul> <!--fermeture ul sidebar-menu-->
+                                </div> <!-- Fermeture menu-btn-->
+                                </nav> <!--Fermeture Navigation sidebar -->
+                </div> <!--fermeture left div-->
+                <div id="right-div"> <!--ouverture right div-->
+                        <div class="search-container">
+                                <input type="text" placeholder="Search...">
+                                <button type="submit">Search</button>
+                        </div>
+                        <div><!--Presentation de ARAKAN-->
+                                <article class="bienvenue-container">
+                                        <h2><b>Bienvenue à l'Association ARAKAN</b></h2>
+                                <img src="Logo.png" alt="Logo ARAKAN">
+                                <h3><b>Qui sommes-nous?</b><br></h3>
+                                 <p>L'Association ARAKAN est une organisation à but non lucratif dédiée à la promotion des droits humains, à l'entraide sociale et au développement communautaire dans la prefecture de Koubia. Nous travaillons avec passion et détermination pour créer un avenir meilleur pour les communautés les plus vulnérables.</p>
+                                </article>
+                        </div>
+                        <div> <!--Ouverture Division Gallerie-->
+                        <section class="section-photos">
+                                <div class="slider-pic">
+                                        <div class="slide-photo">
+                                                <input type="radio" name="radio-btn" id="radio1">
+                                                <input type="radio" name="radio-btn" id="radio2">
+                                                <input type="radio" name="radio-btn" id="radio3">
+                                                <input type="radio" name="radio-btn" id="radio4">
+                                                <input type="radio" name="radio-btn" id="radio5">
+                                                <input type="radio" name="radio-btn" id="radio6">
+                                                <input type="radio" name="radio-btn" id="radio7">
+                                                <input type="radio" name="radio-btn" id="radio8">
+                                                <input type="radio" name="radio-btn" id="radio9">
+                                                <input type="radio" name="radio-btn" id="radio10">
+                                                <input type="radio" name="radio-btn" id="radio11">
+                                                <input type="radio" name="radio-btn" id="radio12">
+                                                <div class="st first">
+                                                        <img src="C:\Users\cheri\OneDrive\Documents\ARAKAN\webarakan\html_style_script1\galerie\Biblio_avant1.jpg" alt="">
+                                                </div>
+                                                <div class="st">
+                                                        <img src="C:\Users\cheri\OneDrive\Documents\ARAKAN\webarakan\html_style_script1\galerie\Biblio_avant2.jpg" alt="">
+                                                </div>
+                                                <div class="st">
+                                                        <img src="C:\Users\cheri\OneDrive\Documents\ARAKAN\webarakan\html_style_script1\galerie\Biblio_avant3.jpg" alt="">
+                                                </div>
+                                                <div class="st">
+                                                        <img src="C:\Users\cheri\OneDrive\Documents\ARAKAN\webarakan\html_style_script1\galerie\Biblio_avant4.jpg" alt="">
+                                                </div>
+                                                <div class="st">
+                                                        <img src="C:\Users\cheri\OneDrive\Documents\ARAKAN\webarakan\html_style_script1\galerie\Biblio_avant5.jpg" alt="">
+                                                </div>
+                                                <div class="st">
+                                                        <img src="C:\Users\cheri\OneDrive\Documents\ARAKAN\webarakan\html_style_script1\galerie\Chaises.jpg" alt="">
+                                                </div>
+                                                <div class="st">
+                                                        <img src="C:\Users\cheri\OneDrive\Documents\ARAKAN\webarakan\html_style_script1\galerie\Etageres.jpg" alt="">
+                                                </div>
+                                                <div class="st">
+                                                        <img src="C:\Users\cheri\OneDrive\Documents\ARAKAN\webarakan\html_style_script1\galerie\Materiaux1.jpg" alt="">
+                                                </div>
+                                                <div class="st">
+                                                        <img src="C:\Users\cheri\OneDrive\Documents\ARAKAN\webarakan\html_style_script1\galerie\Sable.jpg" alt="">
+                                                </div>
+                                                <div class="st">
+                                                        <img src="C:\Users\cheri\OneDrive\Documents\ARAKAN\webarakan\html_style_script1\galerie\Table1.jpg" alt="">
+                                                </div>
+                                                <div class="st">
+                                                        <img src="C:\Users\cheri\OneDrive\Documents\ARAKAN\webarakan\html_style_script1\galerie\Vue biblio.jpg" alt="">
+                                                </div>
+                                                
+                                                <div class="nav-auto">
+                                                        <div class="a-b1"></div>
+                                                        <div class="a-b2"></div>
+                                                        <div class="a-b3"></div>
+                                                        <div class="a-b4"></div>
+                                                        <div class="a-b5"></div>
+                                                        <div class="a-b6"></div>
+                                                        <div class="a-b7"></div>
+                                                        <div class="a-b8"></div>
+                                                        <div class="a-b9"></div>
+                                                        <div class="a-b10"></div>
+                                                        <div class="a-b11"></div>
+                                                        <div class="a-b12"></div>
+                                                </div>
+                                                <div class="nav-m">
+                                                        <label for="radio1" class="m-btn"></label>
+                                                        <label for="radio2" class="m-btn"></label>
+                                                        <label for="radio3" class="m-btn"></label>
+                                                        <label for="radio4" class="m-btn"></label>
+                                                        <label for="radio5" class="m-btn"></label>
+                                                        <label for="radio6" class="m-btn"></label>
+                                                        <label for="radio7" class="m-btn"></label>
+                                                        <label for="radio8" class="m-btn"></label>
+                                                        <label for="radio9" class="m-btn"></label>
+                                                        <label for="radio10" class="m-btn"></label>
+                                                        <label for="radio11" class="m-btn"></label>
+                                                        <label for="radio12" class="m-btn"></label>
+                                                </div>
+
+                                        </div>
+
+                                </div>
+
+                        </section>
+                        </div>
+                </div> <!--fermeture right div-->
+                <footer>
+                        <div class="bottom-bar">
+                                <p>&copy; 2024 arakan. All rights</p>
+                        </div>
+                </footer>
+        </div> <!--fermeture main div-->
+</div> <!--fermeture wrapper div-->
+
+<script src="script.js"></script>
+</body>
+</html>
