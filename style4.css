@@ -24,11 +24,6 @@ body
     min-height: 100vh;
     margin: auto;
 }
-.screentext{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
 @media only screen and (max-width: 414px) {
     #wrapper-div
     {
