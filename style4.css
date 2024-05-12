@@ -16,11 +16,12 @@ body
     background-position: center;
 }
 
+
 /* wrapper pour l'ensemble des divisions */
 
 #wrapper-div
 {
-    width: 60%;
+    width: 50%;
     min-height: 100vh;
     margin: auto;
 }
