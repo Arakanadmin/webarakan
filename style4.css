@@ -25,11 +25,27 @@ body
     min-height: 100vh;
     margin: auto;
 }
-@media only screen and (max-width: 600px) {
+
+.screentext{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: calc(33.33% - 20px); /* Adjust width as needed */
+    margin: 10px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+@media only screen and (max-width: 600px) 
+{
     .div {
       width: 100%; /* Adjust div width to 100% on screens less than or equal to 600px */
     }
-  }
+ }
   
   @media only screen and (min-width: 601px) and (max-width: 1024px) {
     .div {
