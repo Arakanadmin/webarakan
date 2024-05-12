@@ -25,7 +25,25 @@ body
     min-height: 100vh;
     margin: auto;
 }
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 600px) {
+    .div {
+      width: 100%; /* Adjust div width to 100% on screens less than or equal to 600px */
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .div {
+      width: 70%; /* Adjust div width to 70% on screens between 601px and 1024px */
+    }
+  }
+  
+  @media only screen and (min-width: 1025px) {
+    .div {
+      width: 30%; /* Adjust div width to 30% on screens wider than 1024px */
+    }
+  }
+  
+/*@media only screen and (max-width: 375px){
     #wrapper-div{
         width: 90%;
         min-height: auto;
